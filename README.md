@@ -18,6 +18,6 @@
     pecl install Net_SMTP
 
 ### Yajan freamwork installation
-    wget yajan.awgp.in/bin/setup.sh
+    wget yajan.awgp.in/setup.sh
     chmod +x ./setup.sh
     ./setup.sh
