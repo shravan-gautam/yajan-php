@@ -12,10 +12,10 @@
     10.	Pear/Net_SMTP
 
 ### Installation on Ubuntu
-    apt-get install apache2 mysql-server php5 php5-pear php5-dev php5-mcrypt php5-curl
-    pecl install Mail_Mime
-    pecl install Mail
-    pecl install Net_SMTP
+    apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl
+    pear install Mail_Mime
+    pear install Mail
+    pear install Net_SMTP
 
 ### Yajan freamwork installation
     wget yajan.awgp.in/setup.sh
