@@ -1,7 +1,7 @@
 ## Yajan installation on unix/linux
 ### Requirement
     1.	Unix OS
-    2.	PHP >= PHP 5.2
+    2.	PHP >= PHP 5.2 < PHP7.*
     3.	If database use in project then Install Mysql Client or oci8 for oracle
     4.	PHP Pear
     5.	PHP Curl
@@ -18,6 +18,6 @@
     pecl install Net_SMTP
 
 ### Yajan freamwork installation
-    wget yajan.awgp.in/bin/install.sh
-    chmod +x ./install.sh
-    ./install.sh
+    wget yajan.awgp.in/bin/setup.sh
+    chmod +x ./setup.sh
+    ./setup.sh
