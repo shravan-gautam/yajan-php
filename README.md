@@ -7,7 +7,7 @@
     5.	PHP Curl
     6.	PHP Dev
     7.	PHP Mcrypt
-    8.	PHP Mcrypt
+    8.	PHP Sqlite
     9.	Pear/Mail_Mime
     10.	Pear/Mail
     11.	Pear/Net_SMTP
