@@ -11,6 +11,7 @@
     9.	Pear/Mail_Mime
     10.	Pear/Mail
     11.	Pear/Net_SMTP
+    11.	Pear/HTTP_Request
 
 ### Installation on Ubuntu
     apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3
