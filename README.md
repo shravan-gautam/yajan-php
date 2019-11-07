@@ -1,25 +1,39 @@
-## Yajan installation on unix/linux
-### Requirement
-    1.	Unix OS
-    2.	PHP >= PHP 5.2 < PHP7.*
-    3.	If database use in project then Install Mysql Client or oci8 for oracle
-    4.	PHP Pear
-    5.	PHP Curl
-    6.	PHP Dev
-    7.	PHP Mcrypt
-    8.	PHP Sqlite
-    9.	Pear/Mail_Mime
-    10.	Pear/Mail
-    11.	Pear/Net_SMTP
-    11.	Pear/HTTP_Request
+# yajan-php
+Yajan-PHP is smart framework for PHP development. It can build enterprise application and website with in minimal effort of developer. 
 
-### Installation on Ubuntu
-    apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3
-    pear install Mail_Mime
-    pear install Mail
-    pear install Net_SMTP
+## Feature of Yajan-PHP
+1.	Management console on CLI
+2.	Inbuilt authentication and authorization system
+3.	Object oriented programming concept 
+4.	Support to Core PHP development, MVC architecture 
+5.	Support to Mysql, Sqlite, Oraclce and Postgry database
+6.	Multiple database as clone or replica database
+7.	Master / slave database architecture
+8.	Deferent database schemas in one project
+9.	Can make application with or without database application / website
 
-### Yajan freamwork installation
-    wget yajan.awgp.in/setup.sh
-    chmod +x ./setup.sh
-    ./setup.sh
+
+## How to install 
+### Requirements 
+1.	Linux / Unix environment 
+2.	PHP >= 5.2
+3.	Packeges: php-dev, php-pear, php-curl, php-mcrypt, php-sqlite, php-mysql, php-postgray
+4.	PHP pear package: Main_Mime, Mail, Net_SMTP
+
+### Instruction for installation on Ubuntu 
+1.	apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3
+2.	pear install Mail_Mime
+3.	pear install Mail
+4.	pear install Net_SMTP
+
+
+### Installation commands
+    $ sudo apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3
+    $ pear install Mail_Mime
+    $ pear install Mail
+    $ pear install Net_SMTP
+    $ cd webroot
+    
+    $ wget “yajan.awgp.in/setup.sh”
+    $ chmod +x ./setup.sh
+    $ ./setup.sh
