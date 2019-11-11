@@ -28,12 +28,18 @@ Yajan-PHP is smart framework for PHP development. It can build enterprise applic
 
 
 ### Installation commands
-    $ sudo apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3
+    $ sudo apt-get install apache2 mysql-server php php-pear php-dev php-mcrypt php-curl php-sqlite3 php-cli
     $ pear install Mail_Mime
     $ pear install Mail
     $ pear install Net_SMTP
     $ cd webroot
     
-    $ wget “yajan.awgp.in/setup.sh”
-    $ chmod +x ./setup.sh
-    $ ./setup.sh
+    $ git clone https://github.com/awgpsk/yajan-php.git
+    $ php yajan-php/console.php yajan_base=<base/dir/path> cmd="alter config reset"
+    
+Yajan installation complite
+
+### Testing yajan installation 
+    $ php yajan-php/console.php
+    
+if Yajan prompt open without error then installatoin is successfuly complite.
