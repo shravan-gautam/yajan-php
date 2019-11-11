@@ -35,6 +35,9 @@ Yajan-PHP is smart framework for PHP development. It can build enterprise applic
     $ cd webroot
     
     $ git clone https://github.com/awgpsk/yajan-php.git
+    
+    <base/dir/path> is a directory for instance data. it can be in or out of webroot.
+    
     $ php yajan-php/console.php yajan_base=<base/dir/path> cmd="alter config reset"
     
 Yajan installation complite
