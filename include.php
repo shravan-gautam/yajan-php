@@ -1,11 +1,10 @@
 <?php
 ///////////////////////   INITIAL CONFIGURATION   //////////////////////////////
 
-$libVersion = "9.0";
+$libVersion = "11.0";
 $bootstrapVersion = "3";
 $databoxVersion = "1.1";
-$FREAMWORK_PATH="yajan";
-$YAJAN_DATA="/home/yajan/test1/yajan_data";
+$FREAMWORK_PATH="yajan-php";
 
 //////////////////////      BOOT LOADER            ////////////////////////////
 include "$FREAMWORK_PATH/lib/$libVersion/boot.php";
